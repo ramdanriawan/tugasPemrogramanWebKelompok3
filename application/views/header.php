@@ -363,7 +363,7 @@
         								<div class="main-menu">
         									<ul id="menu-main-menu" class="menu">
         										<li id="menu-item-610" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-610">
-        											<a href="https://themes.tielabs.com/sahifa">Home</a>
+        											<a href="/">Home</a>
         										</li>
         										<li id="menu-item-533" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-533 mega-menu mega-links mega-links-3col ">
         											<a href="/category?category=bola">Bola</a>

@@ -12,16 +12,16 @@
 								<div class="featured-post-inner" style="background-image:url('https://cdn0-a.production.images.static6.com/c3u_YIRhPvxSl7Uq0Keu5-4kiko=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/liputan6-media-production/medias/2130340/original/074316600_1525234895-180510_Juventus_vs_AC_Milan.jpg');">
 									<div class="featured-cover">
 										<a href="https://www.liputan6.com/bola/read/3519999/prediksi-starter-juventus-vs-ac-milan?medium=Headline&campaign=Headline_click_1">
-											<span>Prediksi Starter Juventus Vs AC Milan</span>
+											<span>Prediksi Starter Juventus Vs AC </span>
 										</a>
 									</div>
 									<div class="featured-title">
 										<span class="tie-date">
 											<i class="fa fa-clock-o"></i>14 may, 2018</span>
 										<h2>
-											<a href="https://www.liputan6.com/bola/read/3519999/prediksi-starter-juventus-vs-ac-milan?medium=Headline&campaign=Headline_click_1">Prediksi Starter Juventus Vs AC Milan</a>
+											<a href="https://www.liputan6.com/bola/read/3519999/prediksi-starter-juventus-vs-ac-milan?medium=Headline&campaign=Headline_click_1" target="_blank">Prediksi Starter Juventus Vs AC Milan</a>
 										</h2>
-										<h3></h3>
+										<h3>Cuadrado jadi andalan, meski memiilki daya serang tinggi. Sementara pemain bernaluri bertahan, Kwadwo Asamoah.....</h3>
 									</div>
 								</div>
 							</div>
