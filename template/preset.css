@@ -1,0 +1,12 @@
+#main-nav ul li.menu-item-has-children:after, #main-nav ul li.mega-menu:after, .top-menu ul li.menu-item-has-children:after{
+    display: none;
+}
+
+#main-nav ul > li.menu-item-has-children:hover > a:after,
+#main-nav ul > li.mega-menu:hover > a:after {
+	display: none;
+}
+
+#main-nav ul li.menu-item-has-children a:hover{
+    background-color: #f88c00;
+}

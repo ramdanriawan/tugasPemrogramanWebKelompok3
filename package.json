@@ -1,0 +1,31 @@
+{
+  "name": "pendidikanindonesia",
+  "version": "1.0.0",
+  "description": "situs untuk mendapatkan berita seputar pendidikan yang ada di indonesia, project ini di buat untuk menyelesaikan tugas pemrograman web semeseter 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ramdanriawan/pendidikanindonesia.git"
+  },
+  "keywords": [
+    "berita",
+    "pendidikan",
+    "indonesia",
+    "terbaru",
+    "dan",
+    "terupdate"
+  ],
+  "author": "ramdan riawan, rifka pebriani, titi maryanti, tiara dwi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramdanriawan/pendidikanindonesia/issues"
+  },
+  "homepage": "https://github.com/ramdanriawan/pendidikanindonesia#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1"
+  }
+}
