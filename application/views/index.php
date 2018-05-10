@@ -226,97 +226,36 @@ doc;
 								</div>
 								<div class="cat-box-content">
 									<div id="slideshow8" class="group_items-box">
-										<div class="scroll-item">
-											<div class="post-thumbnail">
-												<a href="<?php  ?>" rel="bookmark">
-													<img width="310" height="165" src="wp-content/uploads/sites/3/2015/01/old-car-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
-													<span class="fa overlay-icon"></span>
-												</a>
-											</div>
-											<h3 class="post-box-title">
-												<a href="2015/01/24/used-car-dealer-sales-tricks-exposed/index.html" rel="bookmark">Used Car Dealer Sales Tricks Exposed</a>
-											</h3>
-											<p class="post-meta">
-												<span class="tie-date">
-													<i class="fa fa-clock-o"></i>Jan 24, 2015</span>
-											</p>
-										</div>
-										<div class="scroll-item tie_lightbox">
-											<div class="post-thumbnail">
-												<a href="2014/10/24/20-ways-to-sell-your-product-faster/index.html" rel="bookmark">
-													<img width="310" height="165" src="wp-content/uploads/sites/3/2015/01/4381851322_d46fd7d75e_b-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
-													<span class="fa overlay-icon"></span>
-												</a>
-											</div>
-											<h3 class="post-box-title">
-												<a href="2014/10/24/20-ways-to-sell-your-product-faster/index.html" rel="bookmark">20 Ways To Sell Your Product Faster</a>
-											</h3>
-											<p class="post-meta">
-												<span class="tie-date">
-													<i class="fa fa-clock-o"></i>Oct 24, 2014</span>
-											</p>
-										</div>
-										<div class="scroll-item">
-											<div class="post-thumbnail">
-												<a href="2014/08/24/take-advantage-of-the-falling-stock-market/index.html" rel="bookmark">
-													<img width="310" height="165" src="wp-content/uploads/sites/3/2015/01/Fence-Filtered-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
-													<span class="fa overlay-icon"></span>
-												</a>
-											</div>
-											<h3 class="post-box-title">
-												<a href="2014/08/24/take-advantage-of-the-falling-stock-market/index.html" rel="bookmark">Take Advantage Of The Falling Stock Market</a>
-											</h3>
-											<p class="post-meta">
-												<span class="tie-date">
-													<i class="fa fa-clock-o"></i>Aug 24, 2014</span>
-											</p>
-										</div>
-										<div class="scroll-item">
-											<div class="post-thumbnail">
-												<a href="2014/06/24/new-a-stain-remover-that-works-like-magic/index.html" rel="bookmark">
-													<img width="310" height="165" src="wp-content/uploads/sites/3/2015/01/mtNrf7oxS4uSxTzMBWfQ_DSC_0043-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
-													<span class="fa overlay-icon"></span>
-												</a>
-											</div>
-											<h3 class="post-box-title">
-												<a href="2014/06/24/new-a-stain-remover-that-works-like-magic/index.html" rel="bookmark">New! A Stain Remover That Works Like Magic</a>
-											</h3>
-											<p class="post-meta">
-												<span class="tie-date">
-													<i class="fa fa-clock-o"></i>Jun 24, 2014</span>
-											</p>
-										</div>
-										<div class="scroll-item">
-											<div class="post-thumbnail">
-												<a href="2014/05/24/discover-3-simple-ways-to-reduce-your-unwanted-wrinkles/index.html" rel="bookmark">
-													<img width="310" height="165" src="wp-content/uploads/sites/3/2015/01/6580415133_58b3a52b05_b-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
-													<span class="fa overlay-icon"></span>
-												</a>
-											</div>
-											<h3 class="post-box-title">
-												<a href="2014/05/24/discover-3-simple-ways-to-reduce-your-unwanted-wrinkles/index.html" rel="bookmark">Simple Ways To Reduce Your Unwanted Wrinkles!</a>
-											</h3>
-											<p class="post-meta">
-												<span class="tie-date">
-													<i class="fa fa-clock-o"></i>May 24, 2014</span>
-											</p>
-										</div>
-										<div class="scroll-item">
-											<div class="post-thumbnail">
-												<a href="2014/04/24/unlock-the-secrets-of-selling-high-ticket-items/index.html" rel="bookmark">
-													<img width="310" height="165" src="wp-content/uploads/sites/3/2015/01/5731288337_5fc7e22da6_b-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
-													<span class="fa overlay-icon"></span>
-												</a>
-											</div>
-											<h3 class="post-box-title">
-												<a href="2014/04/24/unlock-the-secrets-of-selling-high-ticket-items/index.html" rel="bookmark">Unlock The Secrets Of Selling High Ticket Items</a>
-											</h3>
-											<p class="post-meta">
-												<span class="tie-date">
-													<i class="fa fa-clock-o"></i>Apr 24, 2014</span>
-											</p>
-										</div>
-										<div class="clear"></div>
+
+										<?php
+											for($a=0; $a<5; $a++)
+											{
+
+												echo
+<<<eod
+
+												<div class="scroll-item">
+													<div class="post-thumbnail">
+														<a href="{$otomotif->result()[$a]->gambar}" rel="bookmark">
+															<img width="310" height="165" src="{$otomotif->result()[$a]->gambar}" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
+															<span class="fa overlay-icon"></span>
+														</a>
+													</div>
+													<h3 class="post-box-title">
+														<a href="{$otomotif->result()[$a]->link}" rel="bookmark">{$otomotif->result()[$a]->judul}</a>
+													</h3>
+													<p class="post-meta">
+														<span class="tie-date">
+															<i class="fa fa-clock-o"></i> {$otomotif->result()[$a]->tgl}</span>
+													</p>
+												</div>
+
+eod;
+											}
+
+
+										 ?>
+
 									</div>
 									<div id="nav8" class="scroll-nav"></div>
 								</div>
@@ -341,10 +280,13 @@ doc;
 									});
 								});
 							</script>
+
+							<?php $bisnis = $this->db->where("category", "bisnis")->get("beritaindonesia"); ?>
+
 							<section class="cat-box wide-box tie-cat-9">
 								<div class="cat-box-title">
 									<h2>
-										<a href="category/tech/index.html">Tech</a>
+										<a href="/category?category=Bisnis">Bisnis</a>
 									</h2>
 									<div class="stripe-line"></div>
 								</div>
@@ -353,95 +295,60 @@ doc;
 										<li class="first-news">
 											<div class="inner-content">
 												<div class="post-thumbnail">
-													<a href="2014/12/24/nexus-6-review/index.html" rel="bookmark">
-														<img width="310" height="165" src="wp-content/uploads/sites/3/2015/01/nexus-6.still002-100529777-orig-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
+													<a href="<?php echo $bisnis->result()[0]->gambar ?>" rel="bookmark">
+														<img width="310" height="165" src="<?php echo  $bisnis->result()[0]->gambar ?>" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
 														<span class="fa overlay-icon"></span>
 													</a>
 												</div>
 												<h2 class="post-box-title">
-													<a href="2014/12/24/nexus-6-review/index.html" rel="bookmark">Nexus 6 review</a>
+													<a href="<?php echo  $bisnis->result()[0]->link ?>" rel="bookmark"><?php echo  $bisnis->result()[0]->judul ?></a>
 												</h2>
 												<p class="post-meta">
 													<span title="Nice" class="post-single-rate post-small-rate stars-small">
 														<span style="width: 73.5714285714%"></span>
 													</span>
 													<span class="tie-date">
-														<i class="fa fa-clock-o"></i>Dec 24, 2014</span>
+														<i class="fa fa-clock-o"></i><?php echo  $bisnis->result()[0]->tgl ?></span>
 												</p>
 												<div class="entry">
-													<p>Don&#8217;t act so surprised, Your Highness. You weren&#8217;t on any mercy mission this time. Several &hellip;</p>
-													<a class="more-link" href="2014/12/24/nexus-6-review/index.html">Read More &raquo;</a>
+													<p><?php echo  $bisnis->result()[0]->description ?></p>
+													<a class="more-link" href="<?php echo  $bisnis->result()[0]->link ?>">Read More &raquo;</a>
 												</div>
 											</div>
 										</li>
-										<li class="other-news tie_video">
+
+										<?php
+
+										for($a=1; $a<5; $a++)
+										{
+											echo
+<<<eod
+
+											<li class="other-news tie_video">
 											<div class="post-thumbnail">
-												<a href="2014/12/24/apple-ipad-review/index.html" rel="bookmark"><img width="110" height="75" src="wp-content/uploads/sites/3/2015/01/ipad-air-feature-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt=""/>
-													<span class="fa overlay-icon"></span>
-												</a>
+											<a href="{$bisnis->result()[$a]->gambar}" rel="bookmark"><img width="110" height="75" src="{$bisnis->result()[$a]->gambar}" class="attachment-tie-small size-tie-small wp-post-image" alt=""/>
+											<span class="fa overlay-icon"></span>
+											</a>
 											</div>
 											<h3 class="post-box-title">
-												<a href="2014/12/24/apple-ipad-review/index.html" rel="bookmark">Apple iPad review</a>
+											<a href="{$bisnis->result()[$a]->link}" rel="bookmark">{$bisnis->result()[$a]->judul}</a>
 											</h3>
 											<p class="post-meta">
-												<span title="Good" class="post-single-rate post-small-rate stars-small">
-													<span style="width: 89.5714285714%"></span>
-												</span>
-												<span class="tie-date">
-													<i class="fa fa-clock-o"></i>Dec 24, 2014</span>
+											<span title="Good" class="post-single-rate post-small-rate stars-small">
+											<span style="width: 89.5714285714%"></span>
+											</span>
+											<span class="tie-date">
+											<i class="fa fa-clock-o"></i>{$bisnis->result()[$a]->tgl}</span>
 											</p>
-										</li>
-										<li class="other-news tie_thumb">
-											<div class="post-thumbnail">
-												<a href="2014/11/24/blackberry-classic-review/index.html" rel="bookmark"><img width="110" height="75" src="wp-content/uploads/sites/3/2015/01/croppedClassic_Black_Angle4_Left-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt=""/>
-													<span class="fa overlay-icon"></span>
-												</a>
-											</div>
-											<h3 class="post-box-title">
-												<a href="2014/11/24/blackberry-classic-review/index.html" rel="bookmark">BlackBerry Classic review</a>
-											</h3>
-											<p class="post-meta">
-												<span title="Not Bad" class="post-single-rate post-small-rate stars-small">
-													<span style="width: 76.1428571429%"></span>
-												</span>
-												<span class="tie-date">
-													<i class="fa fa-clock-o"></i>Nov 24, 2014</span>
-											</p>
-										</li>
-										<li class="other-news tie_lightbox">
-											<div class="post-thumbnail">
-												<a href="2014/11/24/apple-imac-with-retina-5k-display-review/index.html" rel="bookmark"><img width="110" height="75" src="wp-content/uploads/sites/3/2015/01/apple-imac-retina-5k-review-12-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt=""/>
-													<span class="fa overlay-icon"></span>
-												</a>
-											</div>
-											<h3 class="post-box-title">
-												<a href="2014/11/24/apple-imac-with-retina-5k-display-review/index.html" rel="bookmark">Apple iMac with Retina 5K display review</a>
-											</h3>
-											<p class="post-meta">
-												<span title="Great" class="post-single-rate post-small-rate stars-small">
-													<span style="width: 81.25%"></span>
-												</span>
-												<span class="tie-date">
-													<i class="fa fa-clock-o"></i>Nov 24, 2014</span>
-											</p>
-										</li>
-										<li class="other-news">
-											<div class="post-thumbnail">
-												<a href="2014/11/24/iphone-6-plus-review/index.html" rel="bookmark"><img width="110" height="75" src="wp-content/uploads/sites/3/2015/01/Apple_Oct_2014_854-110x75.jpg" class="attachment-tie-small size-tie-small wp-post-image" alt=""/>
-													<span class="fa overlay-icon"></span>
-												</a>
-											</div>
-											<h3 class="post-box-title">
-												<a href="2014/11/24/iphone-6-plus-review/index.html" rel="bookmark">iPhone 6 Plus review</a>
-											</h3>
-											<p class="post-meta">
-												<span title="Graet" class="post-single-rate post-small-rate stars-small">
-													<span style="width: 87.142857142857%"></span>
-												</span>
-												<span class="tie-date">
-													<i class="fa fa-clock-o"></i>Nov 24, 2014</span>
-											</p>
-										</li>
+											</li>
+
+eod;
+										}
+
+
+										 ?>
+
+
 									</ul>
 									<div class="clear"></div>
 								</div>
