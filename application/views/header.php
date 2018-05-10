@@ -366,16 +366,40 @@
         											<a href="/">Home</a>
         										</li>
         										<li id="menu-item-533" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-533 mega-menu mega-links mega-links-3col ">
-        											<a href="/category?category=bola">Bola</a>
+        											<a href="/category?category=Bola">Bola</a>
         										</li>
         										<li id="menu-item-185" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-185 mega-menu mega-links mega-links-4col ">
-        											<a href="/category?category=lifestyle">Lifestyle</a>
+        											<a href="/category?category=Lifestyle">Lifestyle</a>
         										</li>
         										<li id="menu-item-500" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-500 mega-menu mega-recent-featured ">
-        											<a href="/category?category=tekno">Tekno</a>
+        											<a href="/category?category=Tekno">Tekno</a>
         										</li>
         										<li id="menu-item-570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-570">
-        											<a href="/category?category=otomotif">Otomotif</a>
+        											<a href="/category?category=Otomotif">Otomotif</a>
+
+        										</li>
+        										<li id="menu-item-570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-570">
+        											<a href="/category?category=Bisnis">Bisnis</a>
+
+        										</li>
+        										<li id="menu-item-570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-570">
+        											<a href="/category?category=Dunia">Dunia</a>
+
+        										</li>
+        										<li id="menu-item-570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-570">
+        											<a href="/category?category=Hiburan">Hiburan</a>
+
+        										</li>
+        										<li id="menu-item-570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-570">
+        											<a href="/category?category=Properti">Properti</a>
+
+        										</li>
+        										<li id="menu-item-570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-570">
+        											<a href="/category?category=Politik">Politik</a>
+
+        										</li>
+        										<li id="menu-item-570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-570">
+        											<a href="/category?category=Ekonomi">Ekonomi</a>
 
         										</li>
 

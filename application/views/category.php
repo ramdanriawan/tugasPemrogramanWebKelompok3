@@ -2,186 +2,8 @@
 
 
 					<div class="clear"></div>
-					<div id="breaking-news" class="breaking-news">
-						<span class="breaking-news-title">
-							<i class="fa fa-bolt"></i>
-							<span>Breaking News</span>
-						</span>
-					</div>
 					<div id="main-content" class="container">
-						<div id="featured-posts">
-							<div class="featured-post featured-post-1 fea-1">
-								<div class="featured-post-inner" style="background-image:url(wp-content/uploads/sites/3/2015/01/7717834982_bbd7e12b8c_b-660x330.jpg);">
-									<div class="featured-cover">
-										<a href="2015/01/30/13000-people-have-bought-our-theme/index.html">
-											<span>13,000+ People Have Bought Our Theme</span>
-										</a>
-									</div>
-									<div class="featured-title">
-										<span class="tie-date">
-											<i class="fa fa-clock-o"></i>Jan 30, 2015</span>
-										<h2>
-											<a href="2015/01/30/13000-people-have-bought-our-theme/index.html">13,000+ People Have Bought Our Theme</a>
-										</h2>
-										<h3>Don&#8217;t act so surprised, Your Highness. You weren&#8217;t on any mercy mission this time. Sever&#8230;</h3>
-									</div>
-								</div>
-							</div>
-							<div class="featured-post featured-post-2 fea-2">
-								<div class="featured-post-inner" style="background-image:url(wp-content/uploads/sites/3/2015/01/NmnKzKIyQsyGIkFjiNsb_20140717_212636-3-660x330.jpg);">
-									<div class="featured-cover">
-										<a href="2015/01/26/top-search-engine-optimization-strategies-explained/index.html">
-											<span>Top Search Engine Optimization Strategies!</span>
-										</a>
-									</div>
-									<div class="featured-title">
-										<span class="tie-date">
-											<i class="fa fa-clock-o"></i>Jan 26, 2015</span>
-										<h2>
-											<a href="2015/01/26/top-search-engine-optimization-strategies-explained/index.html">Top Search Engine Optimization Strategies!</a>
-										</h2>
-										<h3>Don&#8217;t act so surprised, Your Highness. You weren&#8217;t on any mercy mission this time. Sever&#8230;</h3>
-									</div>
-								</div>
-							</div>
-							<div class="featured-post featured-post-3 fea-3">
-								<div class="featured-post-inner" style="background-image:url(wp-content/uploads/sites/3/2015/01/lock-660x330.jpg);">
-									<div class="featured-cover">
-										<a href="2015/01/25/which-of-these-web-hosting-companies-would-you-choose/index.html">
-											<span>Which Company Would You Choose?</span>
-										</a>
-									</div>
-									<div class="featured-title">
-										<span class="tie-date">
-											<i class="fa fa-clock-o"></i>Jan 25, 2015</span>
-										<h2>
-											<a href="2015/01/25/which-of-these-web-hosting-companies-would-you-choose/index.html">Which Company Would You Choose?</a>
-										</h2>
-										<h3>Don&#8217;t act so surprised, Your Highness. You weren&#8217;t on any mercy mission this time. Sever&#8230;</h3>
-									</div>
-								</div>
-							</div>
-							<div class="featured-post featured-post-4 fea-4">
-								<div class="featured-post-inner" style="background-image:url(wp-content/uploads/sites/3/2015/01/old-car-660x330.jpg);">
-									<div class="featured-cover">
-										<a href="2015/01/24/used-car-dealer-sales-tricks-exposed/index.html">
-											<span>Used Car Dealer Sales Tricks Exposed</span>
-										</a>
-									</div>
-									<div class="featured-title">
-										<span class="tie-date">
-											<i class="fa fa-clock-o"></i>Jan 24, 2015</span>
-										<h2>
-											<a href="2015/01/24/used-car-dealer-sales-tricks-exposed/index.html">Used Car Dealer Sales Tricks Exposed</a>
-										</h2>
-										<h3>Don&#8217;t act so surprised, Your Highness. You weren&#8217;t on any mercy mission this time. Sever&#8230;</h3>
-									</div>
-								</div>
-							</div>
-							<div class="featured-post featured-post-5 fea-5">
-								<div class="featured-post-inner" style="background-image:url(wp-content/uploads/sites/3/2015/01/4381851322_d46fd7d75e_b-660x330.jpg);">
-									<div class="featured-cover">
-										<a href="2014/10/24/20-ways-to-sell-your-product-faster/index.html">
-											<span>20 Ways To Sell Your Product Faster</span>
-										</a>
-									</div>
-									<div class="featured-title">
-										<span class="tie-date">
-											<i class="fa fa-clock-o"></i>Oct 24, 2014</span>
-										<h2>
-											<a href="2014/10/24/20-ways-to-sell-your-product-faster/index.html">20 Ways To Sell Your Product Faster</a>
-										</h2>
-										<h3>
-											Don’t act so surprised, Your Highness. You weren’t on any mercy mission this time. Several transmis&#8230;</h3>
-									</div>
-								</div>
-							</div>
-							<div class="featured-post featured-post-1 fea-6">
-								<div class="featured-post-inner" style="background-image:url(wp-content/uploads/sites/3/2015/01/6940343109_8e0633088e_b-660x330.jpg);">
-									<div class="featured-cover">
-										<a href="2014/10/24/the-secrets-of-rich-and-famous-writers/index.html">
-											<span>The Secrets Of Rich And Famous Writers</span>
-										</a>
-									</div>
-									<div class="featured-title">
-										<span class="tie-date">
-											<i class="fa fa-clock-o"></i>Oct 24, 2014</span>
-										<h2>
-											<a href="2014/10/24/the-secrets-of-rich-and-famous-writers/index.html">The Secrets Of Rich And Famous Writers</a>
-										</h2>
-										<h3>Don&#8217;t act so surprised, Your Highness. You weren&#8217;t on any mercy mission this time. Sever&#8230;</h3>
-									</div>
-								</div>
-							</div>
-							<div class="featured-post featured-post-2 fea-7">
-								<div class="featured-post-inner" style="background-image:url(wp-content/uploads/sites/3/2015/01/1806717289_6e97fe91c9_b-660x330.jpg);">
-									<div class="featured-cover">
-										<a href="2014/09/24/imagine-losing-20-pounds-in-14-days/index.html">
-											<span>Imagine Losing 20 Pounds In 14 Days!</span>
-										</a>
-									</div>
-									<div class="featured-title">
-										<span class="tie-date">
-											<i class="fa fa-clock-o"></i>Sep 24, 2014</span>
-										<h2>
-											<a href="2014/09/24/imagine-losing-20-pounds-in-14-days/index.html">Imagine Losing 20 Pounds In 14 Days!</a>
-										</h2>
-										<h3>Don&#8217;t act so surprised, Your Highness. You weren&#8217;t on any mercy mission this time. Sever&#8230;</h3>
-									</div>
-								</div>
-							</div>
-							<div class="featured-post featured-post-3 fea-8">
-								<div class="featured-post-inner" style="background-image:url(wp-content/uploads/sites/3/2015/01/7998125906_4489ed8a2f_b-660x330.jpg);">
-									<div class="featured-cover">
-										<a href="2014/09/24/are-you-still-using-that-slow-old-typewriter/index.html">
-											<span>Are You Still Using That Slow, Old Typewriter?</span>
-										</a>
-									</div>
-									<div class="featured-title">
-										<span class="tie-date">
-											<i class="fa fa-clock-o"></i>Sep 24, 2014</span>
-										<h2>
-											<a href="2014/09/24/are-you-still-using-that-slow-old-typewriter/index.html">Are You Still Using That Slow, Old Typewriter?</a>
-										</h2>
-										<h3>Don&#8217;t act so surprised, Your Highness. You weren&#8217;t on any mercy mission this time. Sever&#8230;</h3>
-									</div>
-								</div>
-							</div>
-							<div class="featured-post featured-post-4 fea-9">
-								<div class="featured-post-inner" style="background-image:url(wp-content/uploads/sites/3/2015/01/9325995752_e4ecc539f2_o-660x330.jpg);">
-									<div class="featured-cover">
-										<a href="2014/08/24/a-skin-cream-thats-proven-to-work/index.html">
-											<span>A Skin Cream That’s Proven To Work</span>
-										</a>
-									</div>
-									<div class="featured-title">
-										<span class="tie-date">
-											<i class="fa fa-clock-o"></i>Aug 24, 2014</span>
-										<h2>
-											<a href="2014/08/24/a-skin-cream-thats-proven-to-work/index.html">A Skin Cream That’s Proven To Work</a>
-										</h2>
-										<h3>Don&#8217;t act so surprised, Your Highness. You weren&#8217;t on any mercy mission this time. Sever&#8230;</h3>
-									</div>
-								</div>
-							</div>
-							<div class="featured-post featured-post-5 fea-10">
-								<div class="featured-post-inner" style="background-image:url(wp-content/uploads/sites/3/2015/01/8980424864_bbdd635150_k-660x330.jpg);">
-									<div class="featured-cover">
-										<a href="2014/08/24/10-reasons-to-start-your-own-profitable-website/index.html">
-											<span>10 Reasons To Start Your Own, Profitable Website!</span>
-										</a>
-									</div>
-									<div class="featured-title">
-										<span class="tie-date">
-											<i class="fa fa-clock-o"></i>Aug 24, 2014</span>
-										<h2>
-											<a href="2014/08/24/10-reasons-to-start-your-own-profitable-website/index.html">10 Reasons To Start Your Own, Profitable Website!</a>
-										</h2>
-										<h3>Don&#8217;t act so surprised, Your Highness. You weren&#8217;t on any mercy mission this time. Sever&#8230;</h3>
-									</div>
-								</div>
-							</div>
-						</div>
+						<?php include "randomPost.php" ?>
 						<div class="clear"></div>
 						<script>
 							jQuery(document).ready(function () {
@@ -230,69 +52,36 @@
 									<div class="stripe-line"></div>
 								</div>
 								<div class="cat-box-content">
-									<article class="item-list tie_audio">
-										<h2 class="post-box-title">
-											<a href="2015/01/30/13000-people-have-bought-our-theme/index.html" rel="bookmark">13,000+ People Have Bought Our Theme</a>
-										</h2>
-										<p class="post-meta">
-											<span class="tie-date">
-												<i class="fa fa-clock-o"></i>Jan 30, 2015</span>
-										</p>
-										<div class="post-thumbnail">
-											<a href="2015/01/30/13000-people-have-bought-our-theme/index.html" rel="bookmark">
-												<img width="310" height="165" src="wp-content/uploads/sites/3/2015/01/7717834982_bbd7e12b8c_b-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
-												<span class="fa overlay-icon"></span>
-											</a>
-										</div>
-										<div class="entry">
-											<p>Don&#8217;t act so surprised, Your Highness. You weren&#8217;t on any mercy mission this time. Several transmissions were beamed to this ship by Rebel spies. I want to know what happened to the plans they sent you. In my experience, there is no
-												such thing as luck. Partially, but it also obeys &hellip;</p>
-											<a class="more-link" href="2015/01/30/13000-people-have-bought-our-theme/index.html">Read More &raquo;</a>
-										</div>
-										<div class="clear"></div>
-									</article>
-									<article class="item-list tie_video">
-										<h2 class="post-box-title">
-											<a href="2015/01/26/top-search-engine-optimization-strategies-explained/index.html" rel="bookmark">Top Search Engine Optimization Strategies!</a>
-										</h2>
-										<p class="post-meta">
-											<span class="tie-date">
-												<i class="fa fa-clock-o"></i>Jan 26, 2015</span>
-										</p>
-										<div class="post-thumbnail">
-											<a href="2015/01/26/top-search-engine-optimization-strategies-explained/index.html" rel="bookmark">
-												<img width="310" height="165" src="wp-content/uploads/sites/3/2015/01/NmnKzKIyQsyGIkFjiNsb_20140717_212636-3-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
-												<span class="fa overlay-icon"></span>
-											</a>
-										</div>
-										<div class="entry">
-											<p>Don&#8217;t act so surprised, Your Highness. You weren&#8217;t on any mercy mission this time. Several transmissions were beamed to this ship by Rebel spies. I want to know what happened to the plans they sent you. In my experience, there is no
-												such thing as luck. Partially, but it also &hellip;</p>
-											<a class="more-link" href="2015/01/26/top-search-engine-optimization-strategies-explained/index.html">Read More &raquo;</a>
-										</div>
-										<div class="clear"></div>
-									</article>
-									<article class="item-list tie_video">
-										<h2 class="post-box-title">
-											<a href="2015/01/25/which-of-these-web-hosting-companies-would-you-choose/index.html" rel="bookmark">Which Company Would You Choose?</a>
-										</h2>
-										<p class="post-meta">
-											<span class="tie-date">
-												<i class="fa fa-clock-o"></i>Jan 25, 2015</span>
-										</p>
-										<div class="post-thumbnail">
-											<a href="2015/01/25/which-of-these-web-hosting-companies-would-you-choose/index.html" rel="bookmark">
-												<img width="310" height="165" src="wp-content/uploads/sites/3/2015/01/lock-310x165.jpg" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
-												<span class="fa overlay-icon"></span>
-											</a>
-										</div>
-										<div class="entry">
-											<p>Don&#8217;t act so surprised, Your Highness. You weren&#8217;t on any mercy mission this time. Several transmissions were beamed to this ship by Rebel spies. I want to know what happened to the plans they sent you. In my experience, there is no
-												such thing as luck. Partially, but it also &hellip;</p>
-											<a class="more-link" href="2015/01/25/which-of-these-web-hosting-companies-would-you-choose/index.html">Read More &raquo;</a>
-										</div>
-										<div class="clear"></div>
-									</article>
+
+									<?php
+									$query = $this->db->where("category", $_GET["category"])->get("beritaindonesia");
+
+       								foreach ($query->result() as $key => $value):
+echo <<<doc
+
+										<article class="item-list tie_video">
+											<h2 class="post-box-title">
+												<a href="$value->link" rel="bookmark"> $value->judul </a>
+											</h2>
+											<p class="post-meta">
+												<span class="tie-date">
+													<i class="fa fa-clock-o"></i>$value->tgl</span>
+											</p>
+											<div class="post-thumbnail">
+												<a href="$value->link" rel="bookmark">
+													<img width="310" height="165" src="$value->gambar" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
+													<span class="fa overlay-icon"></span>
+												</a>
+											</div>
+											<div class="entry">
+												<p>$value->description</p>
+												<a class="more-link" href="$value->link">Read More &raquo;</a>
+											</div>
+											<div class="clear"></div>
+										</article>
+doc;
+									endforeach;
+?>
 									<div class="clear"></div>
 								</div>
 							</section>

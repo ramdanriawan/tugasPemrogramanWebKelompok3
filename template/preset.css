@@ -10,3 +10,7 @@
 #main-nav ul li.menu-item-has-children a:hover{
     background-color: #f88c00;
 }
+
+#main-nav ul li.menu-item-has-children a, #main-nav ul li.mega-menu a {
+    padding-right: 10px;
+}
