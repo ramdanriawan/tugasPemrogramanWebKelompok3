@@ -228,7 +228,7 @@ doc;
 									<div id="slideshow8" class="group_items-box">
 
 										<?php
-											for($a=0; $a<5; $a++)
+											for($a=0; $a<6; $a++)
 											{
 
 												echo
@@ -237,7 +237,7 @@ doc;
 												<div class="scroll-item">
 													<div class="post-thumbnail">
 														<a href="{$otomotif->result()[$a]->gambar}" rel="bookmark">
-															<img width="310" height="165" src="{$otomotif->result()[$a]->gambar}" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
+															<img style="width:240px; height:120px;"  src="{$otomotif->result()[$a]->gambar}" class="attachment-tie-medium size-tie-medium wp-post-image" alt=""/>
 															<span class="fa overlay-icon"></span>
 														</a>
 													</div>
@@ -255,7 +255,7 @@ eod;
 
 
 										 ?>
-
+										 <div class="clear"></div>
 									</div>
 									<div id="nav8" class="scroll-nav"></div>
 								</div>
