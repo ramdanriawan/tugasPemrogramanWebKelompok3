@@ -2,10 +2,20 @@
     <div id="footer-widget-area" class="footer-3c">
 
         <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <img src="wp-content/uploads/sites/3/2015/01/logo.png" alt="Sahifa" width="175" height="44">
+            <div class="col-md-12">
+                <div class="logo">
+								<a href="/">
+									<h1 style="color:#F88C00; display: inline-block;">B</h1>
+									<h1 style="color:#afa899; display: inline-block;">erita</h1>
+									<h1 style="color:#F88C00; display: inline-block;">I</h1>
+									<h1 style="color:#afa899; display: inline-block;">ndonesia</h1>
+								</a>
+				</div>
+            </div>
+
+            <div class="col-md-6">
                 <p style="margin-top:15px;">
-                    The Sahifa responsive WordPress theme combines practical elegance with powerful features. Retina ready and designed specifically for use across a broad array of devices and platforms.
+                    <a href="http://beritaindonesia.com">beritaindonesia.com</a> - adalah website untuk melihat semua berita dari berbagai situs berita dalam satu tampilan saja, sehingga anda tidak perlu bolak balik ke banyak website lain.
                 </p>
             </div>
         </div>
@@ -17,7 +27,7 @@
 <div class="footer-bottom">
     <div class="container">
         <div class="alignleft">
-            © Copyright 2018, All Rights Reserved
+            © Copyright 2018, All Rights Reserved | <a href="/Authors">Authors</a>
         </div>
         <div class="clear"></div>
     </div>

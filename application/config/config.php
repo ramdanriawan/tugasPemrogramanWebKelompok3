@@ -26,6 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['base_url']            = "http://$_SERVER[SERVER_NAME]/";
 $config['baseClientLibrary']   = "$config[base_url]node_modules/";
 $config["basePathTemplate"]    = "$config[base_url]template/";
+$config["pageOffset"] = 15;
 
 /*
 |--------------------------------------------------------------------------

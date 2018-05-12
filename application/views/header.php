@@ -14,7 +14,7 @@
 		<script src="cdn-cgi/apps/head/svZxNnjSmGCwZH9Ca1C6yPS3ec8.js"></script>
 		<link rel="profile" href="https://gmpg.org/xfn/11"/>
 		<link rel="pingback" href="xmlrpc.php"/>
-		<title>Sahifa &#8211; Blog Magazine Newspaper Theme</title>
+		<title>Berita Indonesia</title>
 		<meta property="og:title" content="Sahifa"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:description" content="Blog Magazine Newspaper Theme"/>
@@ -331,13 +331,13 @@
 							<a id="slide-out-open" class="slide-out-open" href="#">
 								<span></span>
 							</a>
-							<div class="logo" style=" margin-top:15px; margin-bottom:15px;">
-								<h1>
-									<a title="Sahifa" href="index.html">
-										<img src="wp-content/uploads/sites/3/2015/01/logo.png" alt="Sahifa" width="175" height="44"/>
-										<strong>Sahifa Blog Magazine Newspaper Theme</strong>
-									</a>
-								</h1>
+							<div class="logo">
+								<a href="/">
+									<h1 style="color:#F88C00; display: inline-block;">B</h1>
+									<h1 style="color:#afa899; display: inline-block;">erita</h1>
+									<h1 style="color:#F88C00; display: inline-block;">I</h1>
+									<h1 style="color:#afa899; display: inline-block;">ndonesia</h1>
+								</a>
 							</div>
 							<script type="text/javascript">
 								jQuery(document).ready(function ($) {
@@ -357,9 +357,6 @@
 							<div class="container">
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <a class="main-nav-logo" title="Sahifa" href="index.html">
-        									<img src="wp-content/uploads/sites/3/2015/01/nav-logo.png" width="195" height="54" alt="Sahifa">
-        								</a>
         								<div class="main-menu">
         									<ul id="menu-main-menu" class="menu">
         										<li id="menu-item-610" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-610">
@@ -410,7 +407,7 @@
                                     <div class="col-md-4">
                                         <form id="form-pencarian" class='form-inline form-horizontal float-right' style="margin-top:13px;" method="get" action="/search">
 
-                                            <input class='pencarian form-control input-xs' placeholder='cari berita...' name="q"  style="margin-right:5px; height: 33px;">
+                                            <input class='pencarian form-control input-xs' placeholder='cari berita...' name="q"  value="<?php echo $_GET["q"] ?>" style="margin-right:5px; height: 33px;">
                                             <input type='submit' class='btn btn-info' value="Cari">
 
 

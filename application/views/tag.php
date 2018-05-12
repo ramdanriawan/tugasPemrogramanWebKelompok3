@@ -48,19 +48,16 @@
 							</script>
 							<section class="cat-box recent-box recent-blog">
 								<div class="cat-box-title">
-									<h2>Recent Posts</h2>
+									<h2>Tag Untuk <?php echo "\"$_GET[q]\""; ?></h2>
 									<div class="stripe-line"></div>
 								</div>
 								<div class="cat-box-content">
 
 									<?php
-
-									if(!isset($_GET["limit"]))
-									{
-										$_GET["limit"] = 0;
-									}
-
-									$query = $this->db->where("category", $_GET["category"])->order_by("id", "desc")->limit($this->config->item("pageOffset"),$_GET["limit"])->get("beritaindonesia");
+									$query = $this->db->like("judul", $_GET["q"], "both")
+                                                      ->like("description",  $_GET["q"],"both")
+                                                      ->order_by("id", "desc")
+                                                      ->get("beritaindonesia");
 
        								foreach ($query->result() as $key => $value):
 echo <<<doc
@@ -91,13 +88,11 @@ doc;
 									<div class="clear"></div>
 								</div>
 							</section>
-
-							<?php include "pagination.php" ?>
-
+							<?php include "paginationSearch.php" ?>
 							<div class="clear"></div>
 						</div>
 
-						<?php include "sidebar.php" ?>
+                        <?php include "sidebar.php" ?>
 						<div class="clear"></div>
 					</div>
 

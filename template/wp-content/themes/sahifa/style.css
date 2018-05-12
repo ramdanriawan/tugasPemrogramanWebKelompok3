@@ -4993,7 +4993,7 @@ img.alignleft {
 .pagination span.extend,
 .pagination span.current {
 	float: left;
-	margin-right: 3px;
+	margin: 5px 10px;
 	color: #777;
 	padding: 6px 10px 3px;
 }
@@ -5006,6 +5006,8 @@ img.alignleft {
 	color: #FFF;
 	background-color: #F88C00;
 	padding: 4px 10px 6px;
+	margin: 5px 10px;
+
 }
 
 .pagination .pages {

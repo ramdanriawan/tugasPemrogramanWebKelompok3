@@ -1,5 +1,5 @@
 <div id="featured-posts">
-    <?php $bola = $this->db->where("category", "bola")->get("beritaindonesia")->row(); ?>
+    <?php $bola = $this->db->where("category", "bola")->order_by("id", "desc")->get("beritaindonesia")->row(); ?>
     <div class="featured-post featured-post-1 fea-1">
         <div class="featured-post-inner" style="background-image:url('<?php echo $bola->gambar ?>');">
             <div class="featured-cover">
@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <?php $lifestyle = $this->db->where("category", "Lifestyle")->get("beritaindonesia")->row(); ?>
+    <?php $lifestyle = $this->db->where("category", "Lifestyle")->order_by("id", "desc")->get("beritaindonesia")->row(); ?>
 
     <div class="featured-post featured-post-2 fea-2">
         <div class="featured-post-inner" style="background-image:url('<?php echo $lifestyle->gambar ?>');">
@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <?php $tekno = $this->db->where("category", "Tekno")->get("beritaindonesia")->row(); ?>
+    <?php $tekno = $this->db->where("category", "Tekno")->order_by("id", "desc")->get("beritaindonesia")->row(); ?>
 
     <div class="featured-post featured-post-3 fea-3">
         <div class="featured-post-inner" style="background-image:url('<?php echo $tekno->gambar ?>');">
@@ -58,7 +58,7 @@
         </div>
     </div>
 
-    <?php $otomotif = $this->db->where("category", "Otomotif")->get("beritaindonesia")->row(); ?>
+    <?php $otomotif = $this->db->where("category", "Otomotif")->order_by("id", "desc")->get("beritaindonesia")->row(); ?>
 
     <div class="featured-post featured-post-4 fea-4">
         <div class="featured-post-inner" style="background-image:url('<?php echo  $otomotif->gambar ?>');">
@@ -78,7 +78,7 @@
         </div>
     </div>
 
-    <?php $bisnis = $this->db->where("category", "Bisnis")->get("beritaindonesia")->row(); ?>
+    <?php $bisnis = $this->db->where("category", "Bisnis")->order_by("id", "desc")->get("beritaindonesia")->row(); ?>
 
     <div class="featured-post featured-post-5 fea-5">
         <div class="featured-post-inner" style="background-image:url('<?php echo $bisnis->gambar ?>');">
@@ -99,7 +99,7 @@
         </div>
     </div>
 
-    <?php $dunia = $this->db->where("category", "Dunia")->get("beritaindonesia")->row(); ?>
+    <?php $dunia = $this->db->where("category", "Dunia")->order_by("id", "desc")->get("beritaindonesia")->row(); ?>
     <div class="featured-post featured-post-1 fea-6">
         <div class="featured-post-inner" style="background-image:url('<?php echo $dunia->gambar ?>');">
             <div class="featured-cover">
@@ -118,7 +118,7 @@
         </div>
     </div>
 
-    <?php $hiburan = $this->db->where("category", "Hiburan")->get("beritaindonesia")->row(); ?>
+    <?php $hiburan = $this->db->where("category", "Hiburan")->order_by("id", "desc")->get("beritaindonesia")->row(); ?>
 
     <div class="featured-post featured-post-2 fea-7">
         <div class="featured-post-inner" style="background-image:url('<?php echo $hiburan->gambar ?>');">
@@ -138,7 +138,7 @@
         </div>
     </div>
 
-    <?php $properti = $this->db->where("category", "Properti")->get("beritaindonesia")->row(); ?>
+    <?php $properti = $this->db->where("category", "Properti")->order_by("id", "desc")->get("beritaindonesia")->row(); ?>
 
     <div class="featured-post featured-post-3 fea-8">
         <div class="featured-post-inner" style="background-image:url('<?php echo $properti->gambar ?>');">
@@ -158,7 +158,7 @@
         </div>
     </div>
 
-    <?php $politik = $this->db->where("category", "Politik")->get("beritaindonesia")->row(); ?>
+    <?php $politik = $this->db->where("category", "Politik")->order_by("id", "desc")->get("beritaindonesia")->row(); ?>
 
     <div class="featured-post featured-post-4 fea-9">
         <div class="featured-post-inner" style="background-image:url('<?php echo $politik->gambar ?>');">
@@ -178,7 +178,7 @@
         </div>
     </div>
 
-    <?php $ekonomi = $this->db->where("category", "Ekonomi")->get("beritaindonesia")->row(); ?>
+    <?php $ekonomi = $this->db->where("category", "Ekonomi")->order_by("id", "desc")->get("beritaindonesia")->row(); ?>
 
     <div class="featured-post featured-post-5 fea-10">
         <div class="featured-post-inner" style="background-image:url('<?php echo $ekonomi->gambar ?>');">
