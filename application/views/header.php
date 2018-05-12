@@ -289,11 +289,11 @@
 			<div class="background-cover"></div>
 			<aside id="slide-out">
 				<div class="search-mobile">
-					<form method="get" id="searchform-mobile" action="https://themes.tielabs.com/sahifa/">
+					<form method="get" id="searchform-mobile" action="/search">
 						<button class="search-button" type="submit" value="Search">
 							<i class="fa fa-search"></i>
 						</button>
-						<input type="text" id="s-mobile" name="s" title="Search" value="Search" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}"/>
+						<input type="text" id="s-mobile" name="q" title="Search" value="Search" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}"/>
 					</form>
 				</div>
 				<div class="social-icons">
