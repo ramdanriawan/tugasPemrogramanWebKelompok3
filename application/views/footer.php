@@ -7,7 +7,7 @@
 								<a href="/">
 									<h1 style="color:#F88C00; display: inline-block;">B</h1>
 									<h1 style="color:#afa899; display: inline-block;">erita</h1>
-									<h1 style="color:#F88C00; display: inline-block;">I</h1>
+									<h1 style="color:#F88C00; display: inline-block;"> I</h1>
 									<h1 style="color:#afa899; display: inline-block;">ndonesia</h1>
 								</a>
 				</div>
@@ -15,7 +15,7 @@
 
             <div class="col-md-6">
                 <p style="margin-top:15px;">
-                    <a href="http://beritaindonesia.com">beritaindonesia.com</a> - adalah website untuk melihat semua berita dari berbagai situs berita dalam satu tampilan saja, sehingga anda tidak perlu bolak balik ke banyak website lain.
+                    <a href="http://beritaindonesia.com">beritaindonesia.com</a> - adalah website untuk melihat semua berita dari berbagai situs berita dalam satu tampilan saja, sehingga anda tidak perlu bolak balik ke banyak website lain. Website ini melakukan grabbing terhadap berita berita yang berada di category diatas, (hanya data beritanya saja dan tidak termasuk isi dari artikel beritanya)
                 </p>
             </div>
         </div>
@@ -27,7 +27,10 @@
 <div class="footer-bottom">
     <div class="container">
         <div class="alignleft">
-            © Copyright 2018, All Rights Reserved | <a href="/Authors">Authors</a>
+            © Copyright 2018, All Rights Reserved | <a href="/Authors">Authors</a> |
+            <?php
+                echo $this->db->query("select count(*) judul from beritaindonesia")->result()[0]->judul;
+            ?> total data berita yang berhasil di grab
         </div>
         <div class="clear"></div>
     </div>
