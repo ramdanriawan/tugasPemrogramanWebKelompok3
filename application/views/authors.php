@@ -77,10 +77,10 @@
 													<div class="author-avatar">
 														<img
 															alt=''
-															src='https://instagram.fpku2-1.fna.fbcdn.net/vp/522e54746b8eb8957b087baa000b061b/5B85BF13/t51.2885-19/s150x150/28753312_1653196484774917_1647420571366981632_n.jpg'
+															src='foto/fotoTiara.jpeg'
 															class='avatar avatar-90 photo'
 															height='90'
-															width='90'/>
+															width='90' />
 													</div>
 													<div class="author-description">
 														<h3>
